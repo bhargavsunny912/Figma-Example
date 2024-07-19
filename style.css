@@ -1,0 +1,219 @@
+body{
+    margin: 0px;padding: 0px;font-family:sans-serif;
+}
+#logo{
+    padding:10px 50px 0px 0px;margin-top: 10px;
+}
+#nav{
+    display: flex;flex-direction:row;gap: 20px;height: 70px;
+    margin-left: 100px;margin-right: 100px;
+}
+#navbar{
+    display: flex;flex-direction:row;gap: 40px;font-size: 17px;
+    color: navy;font-weight: 600;align-items: center;margin-top: 30px;
+}
+#navbar p:hover{
+    color: aqua;
+}
+.contact,.talk{
+    background-color:navy;color: white;font-weight: 600;
+    height: 40px;width: 100px;border-radius: 10px;
+    border: none;margin:-10px -30px 0px 40px;
+}
+.contact:hover,.talk:hover{
+    background-color: white;color: navy;
+}
+hr{
+    margin:10px 60px 0px 60px;
+}
+#info{
+    text-align: center;
+}
+#section1{background-image: url("./background.png");
+    height: 600px;
+}
+#theme{
+    color: navy;font-size: 50px;margin:60px 0px 25px 0px;
+    font-weight: 600;padding-top:40px;
+}
+#Credenza{
+    color:aqua;text-decoration: underline;font-size: 70px;
+}
+#Credenza:hover{color: aqua;}
+.idea{
+    font-size: 25px;color:black;margin-top: 0;
+    line-height: 40px;
+}
+#info input{
+    height: 35px;border-radius: 10px;border-color: grey;
+    width: 300px;margin-right: -30px;border:solid black 2px;
+}
+#underline{text-decoration: underline;}
+#condition{color:black;margin:10px 0px 0px -150px;}
+#universe{
+    border-radius: 10px;width: 85%;height: 400px;
+    margin: 10px auto;margin:50px 0px 40px 0px;
+}
+#stats{
+    display: flex;flex-direction: row;justify-content: space-evenly;
+    margin: 50px 100px 100px 100px;
+}
+#stats p{color: aqua;}
+.sa{color: aqua;}
+.s{margin-left: 25px;}
+.plus{color: aqua;font-size: 60px;font-weight: 600;margin-left: 0px;}
+#plus6{margin-left: -60px;color: aqua;font-size: 60px;font-weight: 600;}
+#plus10{margin-left: -40px;color: aqua;font-size: 60px;font-weight: 600;}
+#one,#two{margin-left: -30px;}
+#three{height: 80px;width: 130px;overflow: hidden;margin-right: 10px;}
+#four{height: 80px;width: 165px;overflow: hidden;}
+
+#inline{display: flex;flex-direction: row;}
+
+#desc{display: flex;flex-direction: column;gap: 30px;margin-top: 650px;}
+
+#desc1,#desc3{
+    display: grid;grid-template-rows:1fr;
+    grid-template-columns:3fr 2fr;width:950px;height: 400px;margin: 10px auto;
+}
+#about1{background-color: navy;padding:60px 50px 10px 50px;color: white;opacity: 0.8;}
+#about1 h1{font-size: 30px;padding-bottom: 10px;}
+#about1 p{line-height: 21px;font-weight: 100;word-spacing:2px;font-size: 15px;}
+#about1 button{border-radius: 50%;border: none;font-size: 16px;margin-left: 20px;background-color: aqua;color: white;}
+#read{display: inline-block}
+
+#desc2{
+    display: grid;grid-template-rows:1fr;
+    grid-template-columns:2fr 3fr;width: 950px;height: 400px;margin: 10px auto;
+}
+
+#catalouge{
+    display: flex;flex-direction: row;justify-content: space-between;margin:100px 150px 60px 150px;align-items: center;
+}
+#catalouge button{height: 50px;width: 50px;border-radius: 50%;border:solid grey 1px;font-size:25px;background-color:white;}
+
+#cata{text-align: center;}
+#library{background-color: rgb(226, 238, 238);color: aqua;height: 30px;width: 200px;padding-top: 3px; border-radius: 20px;letter-spacing: 3px;margin: 2px auto;font-size: 15px;}
+#cata h1{color:navy;font-size: 50px;margin:10px 0px 10px 0px;}
+#caption{color: aqua;font-size: 25px;margin-top: 10px;}
+
+#pics{margin: 50px 100px 100px 100px;
+display: flex;flex-direction: row;gap: 30px;justify-content: space-evenly;
+}
+
+#pic1{background-image: url("./protistafamily.png");height: 350px;width: 240px;background-size:cover;border-radius: 10px;padding-left: 20px;transition:margin-top ease 0.4s;}
+#pic2{background-image: url("./atomic.webp");height: 350px;width: 240px;background-size:cover;border-radius: 10px;padding-left: 10px;transition:margin-top ease 0.4s;}
+#pic3{background-image: url("./earthcore.png");height: 350px;width: 240px;background-size:cover;border-radius: 10px;padding-left: 20px;transition:margin-top ease 0.4s;}
+#pic4{background-image: url("./pollination.png");height: 350px;width: 240px;background-size:cover;border-radius: 10px;padding-left: 20px;transition:margin-top ease 0.4s;}
+
+#pic1 h6,#pic2 h6,#pic3 h6,#pic4 h6{color: white;margin-top: 280px;margin-bottom: 10px;letter-spacing: 2px;}
+#pic1 p,#pic2 p,#pic3 p,#pic4 p{color: white;display: inline-block;margin: 0;}
+#pic1 button,#pic2 button,#pic3 button,#pic4 button{background-color: aqua;color:white;border-radius: 50%;border: none;margin-left:10px ;}
+
+#pic1:hover,#pic2:hover,#pic3:hover,#pic4:hover{
+    margin-top:-10px;box-shadow: 5px 10px 30px black;
+}
+#information{
+    display:flex;height: 200px;width: 100%;background-color: rgb(224, 224, 224);flex-direction: row;align-items: center;
+}
+#information p{color: navy;font-size: 30px;font-weight: 600;margin-left: 100px;line-height: 40px;}
+
+#inf{
+    height: 40px;border-radius: 5px;border-color: grey;
+    width: 300px;margin-right: -30px;border: none;margin-left: 100px;
+}
+footer{
+    background-color: navy; height: 270px;
+}
+#footer{
+    display: flex;flex-direction:row;gap: 30px;font-size: 16px;
+    color:white;font-weight: 600;align-items: center;margin-bottom: -50px;
+}
+#footer p:hover{
+    color:aqua;opacity:1;
+}
+#flogo{display: flex;flex-direction: column;gap: 20px;align-items: center;height: 170px;justify-content: center;}
+#flogo img{margin-top: 0px;margin-bottom: 10px;}
+
+.copyright{
+    display: flex;flex-direction: row;justify-content:start;gap: 30px;
+}
+.copyright p{color: white;font-size: 15px;padding:20px 0px 20px 0px;}
+#copy{margin-right:350px;margin-left: 50px;}
+
+.copyright p:hover{color: aqua;}
+#copy span{color: aqua;text-decoration: underline;}
+
+.counter{
+    height: 80px;width: 100px;padding-right: 0px;
+   overflow: hidden;margin-left: 50px;
+}
+ul{
+    animation:counter 1s 1;font-size: 60px;list-style: none;
+    font-weight: 600;color:navy;margin-top:0px;padding-left: 0%;
+}
+@keyframes counter {
+    0%{
+        margin-top:0px;
+    }
+    25%{
+        margin-top:-300px;
+    }
+    50%{
+        margin-top:-500px;
+    }
+    75%{
+        margin-top:-750px;
+    }
+    100%{
+        margin-top:-880px;
+    }
+}
+
+#Credenza{
+    animation: blink 1s ease infinite;
+}
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+}
+
+ @media (max-width:431px){
+    #flogo img{height: 40px;width: 150px;}
+    #footer{font-size: 9px;gap:20px}
+    #flogo{height: 100px;}
+    footer{height: 160px;}
+    #copy{font-size: 9px;margin: 0px 10px 0px 5px;padding-top: 0%;}
+    .copyright p{font-size: 9px;padding-top: 0%;}
+    .copyright{gap:10px}
+
+    #information{flex-direction: column;}
+    #information p{margin: 20px;font-size: 20px;}
+    #inf{margin-left: -40px;width: 220px;}
+
+    #nav{margin-left: 20px;}
+    #navbar{visibility: hidden;}
+    .contact{visibility: visible;margin-left: -400px;width: 150px;}
+
+    #theme{margin-top: 0px;padding-top: 20px;}
+    hr{margin: 8px 0px 8px 0px;}
+    .idea{margin-bottom: 30px;font-size: 20px;}
+    #info input{width: 200px;}
+    .talk{width: 90px;margin-left: 30px;}
+    #condition{margin: 5px 0px 0px -20px;}
+
+    #stats{margin-bottom: 50px;flex-direction: column;}
+    .s{margin-left: 10px;}
+
+    #desc{margin-top: 1250px;}
+    #desc1 img,#desc2 img,#desc3 img{height: 250px;width: 300px;}
+    #desc1,#desc2,#desc3{grid-template-columns: 1fr;grid-template-rows: 1fr 1fr;width: 300px;height: 550px;}
+    #about1,#about2,#about3{padding: 20px 30px 10px 30px;}
+
+    #catalouge{margin: 30px 50px 20px 50px;}
+    #cata h1{font-size: 40px;margin: 20px;}
+    #caption{font-size: 20px;}
+
+    #pics{margin: 0px 10px 50px 10px;gap: 15px;flex-wrap: wrap;}
+}
